@@ -10,7 +10,7 @@ if sys.version_info[0] != 3:
 
 PASSWORD_FILE = "1.txt"
 MIN_PASSWORD_LENGTH = 6
-POST_URL = 'https://accounts.google.com/login.php'
+POST_URL = 'https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fmu%2Fmp%2F824%2F%3Flogin%3D1&sacu=1&flowName=GlifWebSignIn&flowEntry=AddSession'
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
 }
